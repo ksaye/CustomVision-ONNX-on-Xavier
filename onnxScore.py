@@ -1,11 +1,3 @@
-# CONTAINER ID   NAME                  CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
-# 0a680c5ef585   checkmailonnxGPU      43.69%    788.1MiB / 30.28GiB   2.54%     66.4MB / 350kB    4.75MB / 147kB   6
-# 'scoreDurationMS': 46.34 # using Onnx and Onnx Float.  Onnx Float16 takes about 220 MS
-
-# CONTAINER ID   NAME                  CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O       PIDS
-# 8ae8b01a58aa   checkmailtensorflow   74.08%    461.8MiB / 30.28GiB   1.49%     13.4MB / 74.9kB   43.1MB / 0B     29
-# "scoreDurationMS": 273.37
-
 import numpy as np
 from PIL import Image
 import json
